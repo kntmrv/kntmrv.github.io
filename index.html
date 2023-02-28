@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Vagif Kantemirov</title>
+
+	<title>Vagif</title>
+
+	<script src="libs/gsap/gsap.min.js" defer></script>
+	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
 
 	<link rel="stylesheet" href="css/main.css">
 	<script src="js/app.js" defer></script>
@@ -12,101 +18,55 @@
 </head>
 <body>
 
-	<div class="container">
-		<section class="gallery">
+	<div class="wrapper">
+		<div class="content">
 
-			<div class="frame">
-				<div class="frame__content">
-					<h2>Идём дальше</h2>
+			<header class="hero-section">
+				<img data-speed=".6" class="hero" src="img/hero.png" alt="Alt" >
+				<div class="container">
+					<div data-speed=".75" class="main-header">
+						<h1 class="main-title">created by V.K.</h1>
+					</div>
+				</div>
+			</header>
+		
+			<div class="portfolio">
+				<div class="container">
+					<main class="gallery">
+	
+						<div data-speed=".9" class="gallery__left">
+		
+							<img class="gallery__item" src="img/work/1.jpg" alt="Alt">
+							<img class="gallery__item" src="img/work/2.jpg" alt="Alt">
+		
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">it seems to every listener that the speaker is speaking only to him.</h2>
+								<p class="text-block__p"></p>
+							</div>
+		
+							<img class="gallery__item" src="img/work/6.jpg" alt="Alt">
+		
+						</div>
+
+						<div data-speed="1.1" class="gallery__right">
+		
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">I don't want to become some kind of star, I'll become a legend.</h2>
+								<p class="text-block__p"></p>
+							</div>
+		
+							<img class="gallery__item" src="img/work/4.jpg" alt="Alt">
+							<img class="gallery__item" src="img/work/5.jpg" alt="Alt">
+							<img class="gallery__item" src="img/work/3.jpg" alt="Alt">
+		
+						</div>
+
+					</main>
 				</div>
 			</div>
 
-			<div class="frame">
-				<div class="frame__content">
-					<div class="frame-media frame-media_left" style="background-image: url(images/1.jpg)"></div>
-				</div>
-			</div>
-
-			<div class="frame frame_bg">
-				<div class="frame__content">
-					<video class="frame-media frame-media_right" src="VK/video_optimized.mp4" autoplay loop muted></video>
-				</div>
-			</div>
-
-			<div class="frame"></div>
-
-			<div class="frame">
-				<div class="frame__content text-right">
-					<h3>Волк с Уолл-стрит</h3>
-					<p>У нас была сильнейшая зависимость от адреналина, и нам нужны были все более и более высокие обрывы, с которых можно было бы прыгнуть, и все более и более мелкие бассейны, в которые можно было бы приземлиться.</p>
-				</div>
-			</div>
-
-			<div class="frame frame_bg">
-				<div class="frame__content">
-					<div class="frame-media frame-media_left" style="background-image: url(images/2.jpg)"></div>
-				</div>
-			</div>
-
-			<div class="frame"></div>
-
-			<div class="frame frame_bg">
-				<div class="frame__content">
-					<div class="frame-media frame-media_right" style="background-image: url(images/3.jpg)"></div>
-				</div>
-			</div>
-
-			<div class="frame"></div>
-
-			<div class="frame">
-				<div class="frame__content text-left">
-					<h3>Тони Монтана</h3>
-					<p>« — Будь доволен тем, что мы имеем. 
-					— Это ты радуйся, а я хочу совсем другого.
-					— Да? И чего же ты хочешь интересно, Тони?
-					— Весь мир, Чико, и всё, что в нём есть. »</p>
-				</div>
-			</div>
-
-			<div class="frame frame_bg">
-				<div class="frame__content">
-					<div class="frame-media frame-media_right" style="background-image: url(images/4.jpg)"></div>
-				</div>
-			</div>
-
-			<div class="frame">
-				<div class="frame__content">
-					<video class="frame-media frame-media_left" src="VK/video_optimized.mp4" autoplay loop muted></video>
-				</div>
-			</div>
-
-			<div class="frame"></div>
-			<div class="frame"></div>
-
-			<div class="frame frame_bg">
-				<div class="frame__content">
-					<div class="frame-media frame-media_right" style="background-image: url(images/5.jpg)"></div>
-				</div>
-			</div>
-
-			<div class="frame frame_bg">
-				<div class="frame__content">
-					<video class="frame-media" src="VK/video_optimized.mp4" autoplay loop muted></video>
-				</div>
-			</div>
-
-			<div class="frame"></div>
-			<div class="frame"></div>
-
-			<div class="frame">
-				<div class="frame__content">© Vagif Kantemirov</div>
-			</div>
-
-		</section>
+		</div>
 	</div>
-
-	<img class="soundbutton paused" src="images/sound.gif" alt="Alt">
-	<audio class="audio" src="VK/ambient.mp3" loop></audio>
 
 </body>
 </html>
