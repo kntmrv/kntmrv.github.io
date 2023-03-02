@@ -87,3 +87,14 @@ body {
 .text-block__p {
 	line-height: 1.75;
 }
+.soundbutton {
+	position: fixed;
+	bottom: 93vh;
+	right: 95vw;
+	cursor: pointer;
+	width: 24px;
+	transition: .25s ease;
+}
+.soundbutton.paused {
+	opacity: .25;
+}
