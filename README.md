@@ -1,5 +1,2 @@
 # Vagif Kantemirov
-Vagif Kantemirov
-# 
-
-#### **[Vagif Kantemirov](https://vk.com/kntmrw)**
+#### **[Vagif Kantemirov (VK.com)](https://vk.com/kntmrw)**
